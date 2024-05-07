@@ -4,19 +4,18 @@ This Is The submission of the USSD Min Projects Codes
 **Overview of the "Investors Contacts Records Keeping System"**
 The "Investors Contacts Records Keeping System" is a PHP-based web application designed to manage investor contact information and related details effectively. This system allows users to register, add, update, remove, and view investor data, as well as manage information about investors' businesses. It is primarily designed for use within organizations that need to maintain detailed records of their investors and their investments.
 **Key Features**
-•	User Registration and Management: Users can register with their phone number and manage their accounts.
-•	Investor Management: Add, update, and remove investor details, including contact information and investment shares.
-•	Business Management: Add and list businesses associated with investors.
-•	Data Integrity and Security: Utilizes hashed passwords and SQL prepared statements to ensure security and prevent SQL injection.
+•	**User Registration and Management:** Users can register with their phone number and manage their accounts.
+•	**Investor Management:** Add, update, and remove investor details, including contact information and investment shares.
+•	**Business Management:** Add and list businesses associated with investors.
 **Technology Stack**
 •	PHP: Server-side scripting language used for backend logic.
 •	MySQL: Database management system used for storing all user and investor data.
 •	Apache: Web server for serving the PHP application.
-Database Structure
+**Database Structure**
 **The application relies on at least two primary tables:**
-1.	users_information: Stores user data, including phone numbers and hashed passwords.
-2.	members_contacts_info: Stores information about investors, such as phone numbers, full names, and shares.
-3.	Investors_businesses: Optional table to store data about businesses associated with investors.
+1.	**users_information: **Stores user data, including phone numbers and hashed passwords.
+2.	**members_contacts_info:** Stores information about investors, such as phone numbers, full names, and shares.
+3.	**Investors_businesses:** Optional table to store data about businesses associated with investors.
 **Running the Application**
 To run this application, you will need a local server environment that supports PHP and MySQL. One common setup is using XAMPP, which includes Apache server, MySQL, PHP, and Perl.
 **Setup Instructions**
