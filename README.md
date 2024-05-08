@@ -7,7 +7,7 @@ Key Features
 •	User Registration and Management: Users can register with their phone number and manage their accounts.
 •	Investor Management: Add, update, and remove investor details, including contact information and investment shares.
 •	Business Management: Add and list businesses associated with investors.
-•	The Incoming SMS Part:her you will be asked to enter the user's credentials whom you want to register to use the system but you in form of sending a message.
+•	The Incoming SMS Part: Here you will be asked to enter the user's credentials whom you want to register to use the system but you in form of sending a message.
 Technology Stack
 •	PHP: Server-side scripting language used for backend logic.
 •	MySQL: Database management system used for storing all user and investor data.
@@ -16,7 +16,7 @@ Database Structure
 The application relies on at least two primary tables:
 1.	users_information: Stores user data, including phone numbers and hashed passwords.
 2.	members_contacts_info: Stores information about investors, such as phone numbers, full names, and shares.
-3.	Investors_businesses:Optional table to store data about businesses associated with investors.
+3.	Investors_businesses:This is a table to store data about businesses associated with investors.
 Running the Application
 To run this application, you will need a local server environment that supports PHP and MySQL. One common setup is using XAMPP, which includes Apache server, MySQL, PHP, and Perl.
 Setup Instructions
